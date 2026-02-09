@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ</title>
+
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .button-group {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background-color: #dbe7e0;
+      color: #000000;
+      text-decoration: none;
+      padding: 12px 16px;
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      flex: 1;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 15px;
+    }
+
+    .faq-arrow {
+      transition: transform 0.3s ease;
+      font-size: 14px;
+    }
+
+    .faq-item.active .faq-arrow {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      font-size: 14px;
+      line-height: 1.5;
+      padding-right: 10px;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+      margin-bottom: 12px;
+    }
+
+    .faq-answer a {
+      color: #000000;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FaQ</h1>
+
+  <div class="intro">
+    to be determined
+  </div>
+
+  <div class="button-group">
+    <a class="btn" href="https://tally.so/r/682NDB" target="_blank">Contact Support</a>
+    <a class="btn" href="https://tally.so/r/rjAo7R" target="_blank">Idea Submission</a>
+  </div>
+
+  <!-- FAQ LIST -->
+
+  <div class="faq-item">
+    <div class="faq-question">
+      I’ve just downloaded the app, will I be charged?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      The Exhale the Light app is free to download, and you will not be charged unless you wish to unlock all features and gain access to the full library.
+      <br><br>
+      <a href="https://hkdgqdmxhtnxtcuqfovq.supabase.co/storage/v1/object/public/Other/UnderConstruction.png" target="_blank">
+        Do this by subscribing
+      </a>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      How do I manage my subscription?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      You can manage your subscription under
+      <a href="https://hkdgqdmxhtnxtcuqfovq.supabase.co/storage/v1/object/public/Other/UnderConstruction.png" target="_blank">
+        account setting
+      </a>
+      in My Room.
+      <br><br>
+      From here select Manage Subscription.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      Can I use the app on my computer?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      Currently the app is only available on mobile and tablets.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      Is the app available in a different language?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      Currently the app is only available in English.
+      <br><br>
+      But this is a feature I’m eager to develop, based on the subscriber base. If enough women subscribe from a certain demographic, I will add new language versions in the future.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      How do I update the app to the latest version?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      When an update is available you will see a notification in your app store.
+      <br><br>
+      To check for new updates, open your app store and search for the Exhale the Light app and tap “update”.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      What length of practices are available?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      Currently the app practices are from 2 to 20 minutes for easy implementation into your daily life.
+      <br><br>
+      You can unlock longer yoga practices by using
+      <a href="https://hkdgqdmxhtnxtcuqfovq.supabase.co/storage/v1/object/public/Other/UnderConstruction.png" target="_blank">
+        the yoga guide
+      </a>.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      Why are yoga practices audio and not video?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      The focus for all practices is to turn your attention inwards for enhanced self-awareness and body-awareness.
+      <br><br>
+      Having no video to follow allows for deeper introspection, self-mastery, and improved proprioception compared with turning your awareness outward during a full practice.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      What do I do if I’m missing something in the app?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      I’d love to hear your ideas.
+      <br><br>
+      If you are missing something that could make the app better for everybody,
+      <a href="https://hkdgqdmxhtnxtcuqfovq.supabase.co/storage/v1/object/public/Other/UnderConstruction.png" target="_blank">
+        submit your idea to me
+      </a>.
+      <br><br>
+      You can always find the idea submission access in My Room.
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      How often is new content added?
+      <span class="faq-arrow">▼</span>
+    </div>
+    <div class="faq-answer">
+      I continue to add new content, sometimes weekly, sometimes monthly.
+      <br><br>
+      The seasonal content is constantly changing to reflect the energy of the season and provide the best possible support.
+    </div>
+  </div>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+
+      question.addEventListener('click', () => {
+        faqItems.forEach(i => {
+          if (i !== item) {
+            i.classList.remove('active');
+          }
+        });
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
